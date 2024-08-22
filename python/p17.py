@@ -10,14 +10,14 @@ while int_num>0:
 while rev_num>0:
     last_digit=rev_num%10
     rev_num=rev_num//10
-    if i%2!=0:
+    if i%2==0:
         odd_digit=last_digit
         print(odd_digit)
         i=i+1
-        continue
+        #continue
     else:
         i=i+1
-        continue
+        #continue
 
 
 
